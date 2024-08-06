@@ -93,7 +93,7 @@ export const Form3 = memo(() => {
           <Stack sx={{ flexDirection: 'row', gap: '8px' }}>
             <Typography gutterBottom>Срок займа:</Typography>
             <Typography gutterBottom sx={{ fontWeight: 'bold' }}>
-              {term}
+              {term} дней
             </Typography>
           </Stack>
           <Controller
